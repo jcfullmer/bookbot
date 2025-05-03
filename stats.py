@@ -4,6 +4,7 @@ def get_num_words(text):
 
 def letter_count(text):
     letters_count = {}
+    
     for i in text:
         lowercase_text = text.lower()
         if i not in letters_count:
